@@ -2,7 +2,7 @@
 This repository store the important command to manage a git repository, I use it personally as a note and it showcase the level of my skills in git.
 
 List of commands:
-* [Heading 1](####delete-a-online-repository-branch:)
+* [Heading 1](#delete-a-online-repository-branch:)
 
 
 #### 1. Download a online repository onto your local machine:
