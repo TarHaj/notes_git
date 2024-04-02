@@ -2,8 +2,7 @@
 This repository store the important command to manage a git repository, I use it personally as a note and it showcase the level of my skills in git.
 
 List of commands:
-* [Heading 1](####heading-7)
-* [Heading 2](####-7.-delete-a-online-repository-branch:)
+* [Heading 1](####delete-a-online-repository-branch:)
 
 
 #### 1. Download a online repository onto your local machine:
@@ -44,7 +43,7 @@ git branch -d <branch_name>
 ```
 ---------------------------------------------------------------
 
-#### 7. Delete a online repository branch:
+#### Delete a online repository branch:
 ```
 git push origin -d <remote_branch_name>   # the remote name is not always origin
 ```
