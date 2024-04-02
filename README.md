@@ -43,7 +43,7 @@ git branch -d <branch_name>
 ```
 ---------------------------------------------------------------
 
-<a name='delete_a_online_repository_branch>
+<a name="delete_a_online_repository_branch"></a>
 #### Delete a online repository branch:
 ```
 git push origin -d <remote_branch_name>   # the remote name is not always origin
