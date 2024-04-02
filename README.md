@@ -30,6 +30,7 @@ git branch -d <branch_name>
 ```
 6. Delete a online repository branch:
 ```
+git push origin -d <remote_branch_name>   # the remote name is not always origin
 ```
 7. Upload change of a branch:
 
