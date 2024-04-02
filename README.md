@@ -8,10 +8,11 @@ List of commands:
 * [Reset a local branch to its online repository version](#reset_a_local_branch_to_its_online_repository_version)
 * [Remove the non-commited/untrack files or directories changes of a local branch](#remove_the_non-commiter_untrack_files_or_directories_changes_of_a_local_branch)
 * [Delete a local branch](#delete_a_local_branch)
-* [Delete a online branch](#delete_a_online_branch)
+* [Delete a online branch](#delete_a_local_branch)
 * [Upload changes of a local branch onto its online branch](#upload_changes_of_a_local_branch_onto_its_online_branch)
 * [Check the change between commits and working tree](#check_the_change_between_commits_and_working_tree)
 * [Move a secondary branch to a master branch](#move_a_secondary_branch_to_a_master_branch)
+  
 
 <a name="download_a_online_repository_onto_your_local_machine"></a>
 #### 1. Download a online repository onto your local machine:
