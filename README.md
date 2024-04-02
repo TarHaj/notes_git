@@ -2,7 +2,7 @@
 This repository store the important command to manage a git repository, I use it personally as a note and it showcase the level of my skills in git.
 
 List of Command:
-* [Heading 1](####heafing-7)
+* [Heading 1](####heading-7)
 
 
 #### 1. Download a online repository onto your local machine:
