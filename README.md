@@ -22,6 +22,7 @@ mkdir <directory_name>
 cd <directory_name>
 git init
 git add .
+git status
 git commit -m "Initial commit"
 git remote add origin https:github.com/<your-username>/<directory_name>.git
 git push -u origin master
