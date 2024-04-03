@@ -1,5 +1,5 @@
 # notes_git
-This repository store the important command to manage a git repository, I use it personally as a note and it showcase the level of my skills in git.
+This repository stores the important commands to manage a git repository, I use it personally as a recall note and it showcases the level of my skills in git.
 
 List of commands:
 * [Create a local repository](#create_a_local_repository)
