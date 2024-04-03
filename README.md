@@ -2,6 +2,7 @@
 This repository store the important command to manage a git repository, I use it personally as a note and it showcase the level of my skills in git.
 
 List of commands:
+* [Create a local repository](#create_a_local_repository)
 * [Doawnload a online repository onto your local machine](#download_a_online_repository_onto_your_local_machine)
 * [Create a new branch](#create_a_new_branch)
 * [Switch to another branch](#switch_to_another_branch)
@@ -14,32 +15,44 @@ List of commands:
 * [Move a secondary branch to a master branch](#move_a_secondary_branch_to_a_master_branch)
   
 
+<a name="create_a_local_repository"></a>
+#### 1. Create a local repository and upload it online
+```
+mkdir <directory_name>
+cd <directory_name>
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https:github.com/<your-username>/<directory_name>.git
+git push -u origin master
+```
+---------------------------------------------------------------
 <a name="download_a_online_repository_onto_your_local_machine"></a>
-#### 1. Download a online repository onto your local machine:
+#### 2. Download a online repository onto your local machine:
 ```
 git pull <URL>
 ```
 ---------------------------------------------------------------
 <a name="create_a_new_branch"></a>
-#### 2. Create a new branch:
+#### 3. Create a new branch:
 ```
 git checkout -b <branch_name>
 ```
 ---------------------------------------------------------------
 <a name="switch_to_another_branch"></a>
-#### 3. Switch to another branch:
+#### 4. Switch to another branch:
 ```
 git checkout <branch_name>
 ```
 ---------------------------------------------------------------
 <a name="reset_a_local_branch_to_its_online_repository_version"></a>
-#### 4. Reset a local branch to its online repository version:
+#### 5. Reset a local branch to its online repository version:
 ```
 git checkout <branch_name> -- .
 ```
 ---------------------------------------------------------------
 <a name="remove_the_non-commiter_untrack_files_or_directories_changes_of_a_local_branch"></a>
-#### 5. Remove the non-commited/untrack files or directories changes of a local branch:
+#### 6. Remove the non-commited/untrack files or directories changes of a local branch:
 ```
 git clean -n    # shows you the untracked files that would be removed
 git clean -f    # removes the untracked files
@@ -48,19 +61,19 @@ git clean -df   # removes the untracked directories
 ```
 ---------------------------------------------------------------
 <a name="delete_a_local_branch"></a>
-#### 6. Delete a local branch:
+#### 7. Delete a local branch:
 ```
 git branch -d <branch_name>
 ```
 ---------------------------------------------------------------
 <a name="delete_a_online_repository_branch"></a>
-#### 7. Delete a online repository branch:
+#### 8. Delete a online repository branch:
 ```
 git push origin -d <remote_branch_name>   # the remote name is not always origin
 ```
 ---------------------------------------------------------------
 <a name="upload_changes_of_a_local_branch_onto_its_online_branch"></a>
-#### 8. Upload changes of a local branch onto its online branch:
+#### 9. Upload changes of a local branch onto its online branch:
 
   * Commit of the changes of the local branch:
 ```
